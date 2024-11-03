@@ -10,8 +10,8 @@ from scipy.signal import find_peaks
 st.title("Fysiikan loppuprojekti")
 
 # Määritellään tiedostojen polut
-path_acceleration = "Linear Acceleration.csv"
-path_location = "Location.csv"
+path_acceleration = "https://raw.githubusercontent.com/Rapuska/fyysikan_lopputehtava/refs/heads/main/Linear%20Acceleration.csv"
+path_location = "https://raw.githubusercontent.com/Rapuska/fyysikan_lopputehtava/refs/heads/main/Location.csv"
 
 # Luetaan kiihtyvyysdata ja GPS-data
 accel_data = pd.read_csv(path_acceleration)
